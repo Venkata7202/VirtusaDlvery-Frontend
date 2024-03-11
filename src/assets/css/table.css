@@ -1,0 +1,118 @@
+.table-actions {
+    background-color: rgba(17, 133, 183, 0.25);
+    border-radius: 1.25em;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    left: 0;
+}
+
+/*
+
+.table-body {
+    background-color: rgba(17, 133, 183, 0.25);
+    height: 100%;
+    width: 100%;
+    border-radius: 1.25em;
+    margin-top: 1em;
+}
+
+.table-body table {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-body table thead {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.table-body table thead tr:not(:first-child) {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+.table-body table thead th {
+    text-align: center;
+    background-color: rgba(17, 133, 183, 0.25);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 1.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.table-body table thead th tr {
+}
+
+*/
+
+.table-actions .table-action {
+    margin-right: 1em;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 1.25em;
+    background-color: rgba(17, 133, 183, 0.25);
+    cursor: pointer;
+}
+
+.table-actions .table-action:hover {
+    background-color: rgba(17, 133, 183, 0.5);
+}
+
+.table-actions .table-action:active {
+    background-color: rgba(17, 133, 183, 0.75);
+}
+
+table {
+    background: rgba(17, 133, 183, 0.25);
+    border-radius: 1.25em;
+    margin-top: 1em;
+}
+
+thead th {
+    color: white;
+}
+
+tbody tr td {
+    text-align: left;
+}
+
+.table-pagination {
+    background-color: rgba(17, 133, 183, 0.25);
+    border-radius: 1.25em;
+    width: 100%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-center;
+}
+
+.table-pagination .table-pagination-button {
+    padding: 0.5em;
+    border-radius: 1.25em;
+    background-color: rgba(17, 133, 183, 0.25);
+    cursor: pointer;
+}
+
+.table-pagination .table-pagination-button:hover {
+    background-color: rgba(17, 133, 183, 0.5);
+}

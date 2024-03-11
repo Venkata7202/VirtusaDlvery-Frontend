@@ -1,0 +1,16 @@
+.logo-container .first-part-logo {
+    color: rgb(0, 188, 248);
+    font-size: 6rem;
+}
+
+.logo-container .second-part-logo {
+    color: rgb(17, 133, 183);
+}
+
+.header-container .logo-container {
+    padding-top: 0.5rem;
+}
+
+.header-container .logo-container .first-part-logo {
+    font-size: 3em;
+}

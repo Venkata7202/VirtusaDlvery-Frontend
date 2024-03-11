@@ -1,0 +1,37 @@
+.product-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 133, 183, 0.25);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product-form {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    color: "white";
+}
+
+.product-form-entry {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+}
+
+.product-label {
+    display: inline-block;
+    font-size: 1.2em;
+    width: 25%;
+    text-align: left;
+    color: white;
+}
+
+.product-form .text-field-primary {
+    width: 100%;
+    margin-left: 1.5em;
+}

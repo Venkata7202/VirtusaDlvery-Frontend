@@ -1,0 +1,49 @@
+/* Button Styles */
+.btn {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translateY(0.1em);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgba(0, 188, 248);
+}
+
+.btn-primary:active {
+    background-color: rgba(0, 188, 248, 0.75);
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 188, 248, 0.75);
+}
+
+.btn-secondary {
+    color: black;
+    background-color: grey;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+
+.btn-danger {
+    background-color: #b52121;
+    color: white;
+}

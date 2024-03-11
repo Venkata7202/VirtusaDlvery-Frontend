@@ -1,0 +1,15 @@
+.page-pane {
+    margin-left: 1.5em;
+    color: white;
+}
+
+.page-header {
+    text-align: left;
+    color: white;
+    font-size: 2em;
+    margin-top: 0.75em;
+}
+
+.page-content {
+    margin-top: 1.5em;
+}

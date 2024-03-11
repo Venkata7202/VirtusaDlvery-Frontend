@@ -1,0 +1,26 @@
+.dropdown-container {
+    /* width: 100%; */
+}
+
+.dropdown-select {
+    height: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgba(17, 133, 183);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    margin-left: 1.25em;
+}
+
+.dropdown-select:active {
+    background-color: rgba(17, 133, 183);
+}
+
+.dropdown-select:focus {
+    outline: none;
+}

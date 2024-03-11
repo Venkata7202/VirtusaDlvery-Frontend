@@ -1,0 +1,30 @@
+.module-container {
+    padding-top: 1em;
+}
+
+.module-container .module-name {
+    color: white;
+    text-align: left;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    padding-left: 2em;
+}
+
+.module-container .sub-modules-container {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.module-container .sub-module-container .sub-module-name {
+    color: white;
+    /* height: 2.5em; */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.25em;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.module-container .sub-modules-container .sub-module-name.active {
+    background-color: rgb(0, 53, 65);
+}
